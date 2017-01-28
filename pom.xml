@@ -1,0 +1,11 @@
+﻿<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ru.bildovich</groupId>
+    <artifactId>chapter_001</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    
+    <modules>
+        <module>ch1_5</module>
+	</modules>
+</project>
