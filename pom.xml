@@ -1,4 +1,4 @@
-﻿<project>
+<project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.bildovich</groupId>
     <artifactId>chapter_001</artifactId>
@@ -10,6 +10,7 @@
         <module>ch1_4</module>
         <module>ch1_2</module>
         <module>ch2_3</module>
+        <module>ch3_1</module>
 	</modules>
     
     <build>

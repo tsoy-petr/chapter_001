@@ -27,7 +27,7 @@ public class CalculateTest{
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
         Calculate.main(null);
-        assertThat(out.toString(), is("ahh ahh ahh\r\n"));
+        assertThat(out.toString(), is("ahh ahh ahh\n"));
 
     }
 
