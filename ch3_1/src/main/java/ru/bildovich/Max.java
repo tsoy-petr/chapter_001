@@ -9,8 +9,4 @@ public class Max {
             return first;
         }else return second;
     }
-
-    public static void main(String[] args) {
-
-    }
 }
