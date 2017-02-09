@@ -12,6 +12,10 @@
         <module>ch2_3</module>
         <module>ch3_1</module>
         <module>ch3_2</module>
+        <module>ch3_3</module>
+        <module>ch4_1</module>
+        <module>ch4_2</module>
+        <module>ch4_3</module>
 	</modules>
     
     <build>
