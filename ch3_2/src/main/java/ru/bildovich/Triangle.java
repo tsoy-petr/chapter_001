@@ -14,9 +14,9 @@ public class Triangle {
     public double area() {
         double area = -1;
         if(area == -1) {
-            double ab = a.distanceTo(b);
-            double bc = b.distanceTo(c);
-            double ac = a.distanceTo(c);
+            double ab = this.a.distanceTo(b);
+            double bc = this.b.distanceTo(c);
+            double ac = this.a.distanceTo(c);
             double p = (ab + bc + ac) / 2;
             area = Math.sqrt(p * (p-ab) * (p-bc) * (p-ac));
         }
