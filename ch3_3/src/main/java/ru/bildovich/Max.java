@@ -12,7 +12,5 @@ public class Max {
     public int max(int first, int second, int three){
        return max(max(first, second), three);
     }
-    public static void main(String[] args) {
 
-    }
 }
