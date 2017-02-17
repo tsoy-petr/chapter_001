@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\projects\chapter_001\ch3_2\src\main\java\ru\bildovich\package-info.java">
+</file>
+<file name="C:\projects\chapter_001\ch3_2\src\main\java\ru\bildovich\Point.java">
+<error line="12" column="19" severity="error" message="Variable &apos;x&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="16" column="19" severity="error" message="Variable &apos;y&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+</file>
+<file name="C:\projects\chapter_001\ch3_2\src\main\java\ru\bildovich\Triangle.java">
+</file>
+<file name="C:\projects\chapter_001\ch3_2\src\test\java\ru\bildovich\package-info.java">
+</file>
+<file name="C:\projects\chapter_001\ch3_2\src\test\java\ru\bildovich\TriangleTest.java">
+</file>
+</checkstyle>
