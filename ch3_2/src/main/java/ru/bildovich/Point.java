@@ -9,11 +9,11 @@ public class Point {
     /**
      * координата x.
      */
-    public double x;
+    private double x;
     /**
      * координата y.
      */
-    public double y;
+    private double y;
 
     /**
      * Конструктор с параметрами.
@@ -34,6 +34,22 @@ public class Point {
         double dx = this.x - point.x;
         double dy = this.y - point.y;
         return Math.sqrt(dx * dx + dy * dy);
+    }
+
+    /**
+     * Get.
+     * @return var x
+     */
+    public double getX() {
+        return x;
+    }
+
+    /**
+     * Get.
+     * @return var y
+     */
+    public double getY() {
+        return y;
     }
 }
 
